@@ -15,6 +15,7 @@ This repository contains an end-to-end **Natural Language Processing (NLP)** pip
 
 ## Dataset
 - **Source:** Amazon Fine Food Reviews (`Reviews.csv`)
+- Dataset Link- https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews 
 - **Target construction:**  
   - Drop neutral (`Score == 3`)  
   - Map `Score > 3 → 1 (positive)`, `Score < 3 → 0 (negative)`
